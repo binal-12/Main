@@ -8,13 +8,14 @@
 body{
     background: url(./imgs/bg.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     font-family: 'Poppins', sans-serif;
 }
 
 main{
-    margin: 50px 100px;
+    margin: 10vh 8vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,4 +62,61 @@ nav{
 
 .navlinks li:hover{
     color: rgba(215, 35, 231, 0.85)
+}
+
+
+/* ======== HERO SECTION ======== */
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 87%;
+}
+
+.ht{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.5em;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.waving-hand{
+    height: .9em;
+    user-select: none;
+}
+
+.small{
+    margin-top: 20px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 21.7525px;
+    line-height: 120%;
+    color: #bdb9b9
+}
+
+.binal{
+    background-color: #f3ec78;
+    background: linear-gradient(90deg, #F59E0B 40%, #EF4444);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.fronte{
+    background-color: #f3ec78;
+    background: linear-gradient(90deg, #38E7E7, #4744EF);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.hero-img{
+    margin-right: 40px;
 }
