@@ -108,6 +108,31 @@ nav{
     color: #bdb9b9
 }
 
+.button{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    padding: 6px 14px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.button h2{
+    font-weight: 400;
+    font-size: 20.8284px;
+    line-height: 31px;
+    color: #FFFFFF;
+}
+
+.button span{
+    margin-left: 10px;
+    color: white;
+}
+
 .binal{
     background-color: #f3ec78;
     background: linear-gradient(90deg, #F59E0B 40%, #EF4444);
@@ -182,8 +207,14 @@ nav{
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
+    user-select: none;
 }
 
 .lan-logos img{
     margin: 0 22px;
+    transition: .3s;
+}
+
+.lan-logos img:hover{
+    transform: scale(1.15);
 }
