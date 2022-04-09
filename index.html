@@ -72,8 +72,8 @@
                     <h1 class="info-name">Rock-Paper-Scissor Game</h1>
                     <h2 class="info-des">A simple classical single player game made with vanila javascript</h2>
                     <div class="info-links">
-                        <img src="./imgs/github.svg" alt="" class="links-icon">
-                        <img src="./imgs/link.svg" alt="" class="links-icon">
+                        <img src="./imgs/github.svg" alt="" class="links-icon" onclick="window.location.href='https://github.com/binal-12/Rock-Paper-Scissors'" >
+                        <img src="./imgs/link.svg" alt="" class="links-icon" onclick="window.location.href='https://binalc-rsp.netlify.app/'">
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@
                     <h1 class="info-name">Tic-Tac-Toe Game</h1>
                     <h2 class="info-des">The OG game of tic-tac-toe made in both single and multiplayer mode with use of vanilla javascript.</h2>
                     <div class="info-links">
-                        <img src="./imgs/github.svg" alt="" class="links-icon">
-                        <img src="./imgs/link.svg" alt="" class="links-icon">
+                        <img src="./imgs/github.svg" alt="" class="links-icon" onclick="window.location.href='https://github.com/binal-12/tic-tac-toe'">
+                        <img src="./imgs/link.svg" alt="" class="links-icon" onclick="window.location.href='https://binalc-ttt.netlify.app/'">
                     </div>
                 </div>
                 <img src="./imgs/prjct-ttt.png" alt="" class="prjct-img">
@@ -104,25 +104,26 @@
                     <h1 class="social-heading">Lets connect and exchange perspective.</h1>
                     <h2 class="small social-subhead">contact me on-</h2> 
                     <div class="social-links">
-                        <img src="./imgs/instagram.svg" alt="">
-                        <img src="./imgs/facebook.svg" alt="">
-                        <img src="./imgs/twitter.svg" alt="">
-                        <img src="./imgs/github.svg" alt="">
-                        <img src="./imgs/mail.svg" alt="">
+                        <img src="./imgs/instagram.svg" onclick="window.location.href='https://instagram.com/__binal12'">
+                        <img src="./imgs/facebook.svg" onclick="window.location.href='https://facebook.com/profile.php?id=200074792331476'">
+                        <img src="./imgs/twitter.svg" onclick="window.location.href='https://twitter.com/__binal12'">
+                        <img src="./imgs/github.svg" onclick="window.location.href='https://github.com/binal-12'">
+                        <img src="./imgs/mail.svg" onclick="window.location.href='mailto:binalchhodvadiya12@gmail.com'">
                     </div>
                 </div>
-                <div class="contact-form">
+                <form action="" id="conatct-form" class="contact-form">
                     <input type="text" class="input-text" placeholder="Your Name">
                     <input type="text" class="input-text" placeholder="Your Email">
-                    <textarea class="input-text textarea" cols="30" rows="10"></textarea>
-                    <h2 class="form-button">Submit</h2>
-                </div>
+                    <textarea class="input-text textarea" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="form-button">Submit</button>
+                </form>
             </div>
         </section>
 
         <div class="hr" style="margin-bottom: 50px;"></div>
 
     </main>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./script.js"></script>
 </body>
 </html>

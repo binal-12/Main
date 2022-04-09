@@ -6,7 +6,8 @@ resume.addEventListener('click', () => {
 })
 
 var goto = (p) => {
-    window.location.href = "#" + p.textContent
+    let loc = "#" + p.textContent
+    window.location.href = loc;
 }
 
 
@@ -21,3 +22,8 @@ for( let i=2, n=project.length; i<n; i++){
         project[i].children[0].style.marginRight = "55px"
     }
 }
+
+//=====================================================
+
+const form = document.getElementById("conatct-form")
+
